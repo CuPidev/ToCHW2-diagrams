@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="469pt" height="361pt" viewBox="0.00 0.00 469.00 361.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 356.63)">
+<title>Task1Cupryniak</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-356.63 465.17,-356.63 465.17,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="black" stroke="black" cx="1.8" cy="-169.64" rx="1.8" ry="1.8"/>
+</g>
+<!-- qFindBitToRemove -->
+<g id="node4" class="node">
+<title>qFindBitToRemove</title>
+<ellipse fill="none" stroke="black" cx="98.33" cy="-169.64" rx="57.73" ry="57.73"/>
+<text xml:space="preserve" text-anchor="middle" x="98.33" y="-166.64" font-family="Times,serif" font-size="10.00">qFindBitToRemove</text>
+</g>
+<!-- start&#45;&gt;qFindBitToRemove -->
+<g id="edge1" class="edge">
+<title>start-&gt;qFindBitToRemove</title>
+<path fill="none" stroke="black" d="M3.86,-169.64C7.01,-169.64 16.87,-169.64 29.07,-169.64"/>
+<polygon fill="black" stroke="black" points="28.77,-173.14 38.77,-169.64 28.77,-166.14 28.77,-173.14"/>
+</g>
+<!-- qAccept -->
+<g id="node2" class="node">
+<title>qAccept</title>
+<ellipse fill="none" stroke="green" cx="410.8" cy="-53.64" rx="29.66" ry="29.66"/>
+<ellipse fill="none" stroke="green" cx="410.8" cy="-53.64" rx="33.66" ry="33.66"/>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-50.64" font-family="Times,serif" font-size="10.00">qAccept</text>
+</g>
+<!-- qReject -->
+<g id="node3" class="node">
+<title>qReject</title>
+<ellipse fill="none" stroke="red" cx="410.8" cy="-320.64" rx="27.99" ry="27.99"/>
+<ellipse fill="none" stroke="red" cx="410.8" cy="-320.64" rx="31.99" ry="31.99"/>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-317.64" font-family="Times,serif" font-size="10.00">qReject</text>
+</g>
+<!-- qFindBitToRemove&#45;&gt;qReject -->
+<g id="edge5" class="edge">
+<title>qFindBitToRemove-&gt;qReject</title>
+<path fill="none" stroke="black" d="M123.16,-221.89C142.08,-256.54 172.14,-299.25 212.88,-319.64 261.93,-344.18 326.83,-338.36 368.46,-330.59"/>
+<polygon fill="black" stroke="black" points="368.95,-334.06 378.06,-328.67 367.57,-327.2 368.95,-334.06"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-340.01" font-family="Times,serif" font-size="9.00">_/_,-</text>
+</g>
+<!-- qFindBitToRemove&#45;&gt;qFindBitToRemove -->
+<g id="edge4" class="edge">
+<title>qFindBitToRemove-&gt;qFindBitToRemove</title>
+<path fill="none" stroke="black" d="M84.63,-226.11C86.17,-237.35 90.74,-245.37 98.33,-245.37 103.07,-245.37 106.64,-242.24 109.02,-237.15"/>
+<polygon fill="black" stroke="black" points="112.38,-238.14 111.63,-227.58 105.62,-236.3 112.38,-238.14"/>
+<text xml:space="preserve" text-anchor="middle" x="98.33" y="-248.07" font-family="Times,serif" font-size="9.00">X/X,&gt;</text>
+</g>
+<!-- qRemovePair0 -->
+<g id="node5" class="node">
+<title>qRemovePair0</title>
+<ellipse fill="none" stroke="black" cx="258.24" cy="-225.64" rx="45.36" ry="45.36"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-222.64" font-family="Times,serif" font-size="10.00">qRemovePair0</text>
+</g>
+<!-- qFindBitToRemove&#45;&gt;qRemovePair0 -->
+<g id="edge2" class="edge">
+<title>qFindBitToRemove-&gt;qRemovePair0</title>
+<path fill="none" stroke="black" d="M153.23,-188.76C169.8,-194.63 188,-201.09 204.49,-206.93"/>
+<polygon fill="black" stroke="black" points="203.02,-210.13 213.61,-210.17 205.36,-203.53 203.02,-210.13"/>
+<text xml:space="preserve" text-anchor="middle" x="184.47" y="-205.36" font-family="Times,serif" font-size="9.00">0/X,&gt;</text>
+</g>
+<!-- qRemovePair1 -->
+<g id="node6" class="node">
+<title>qRemovePair1</title>
+<ellipse fill="none" stroke="black" cx="258.24" cy="-77.64" rx="45.36" ry="45.36"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-74.64" font-family="Times,serif" font-size="10.00">qRemovePair1</text>
+</g>
+<!-- qFindBitToRemove&#45;&gt;qRemovePair1 -->
+<g id="edge3" class="edge">
+<title>qFindBitToRemove-&gt;qRemovePair1</title>
+<path fill="none" stroke="black" d="M148.86,-140.78C167.88,-129.71 189.55,-117.08 208.49,-106.05"/>
+<polygon fill="black" stroke="black" points="210.22,-109.09 217.1,-101.03 206.69,-103.04 210.22,-109.09"/>
+<text xml:space="preserve" text-anchor="middle" x="184.47" y="-126.34" font-family="Times,serif" font-size="9.00">1/X,&gt;</text>
+</g>
+<!-- qRemovePair0&#45;&gt;qReject -->
+<g id="edge8" class="edge">
+<title>qRemovePair0-&gt;qReject</title>
+<path fill="none" stroke="black" d="M297.24,-249.61C320.71,-264.43 350.66,-283.32 373.77,-297.9"/>
+<polygon fill="black" stroke="black" points="371.6,-300.68 381.93,-303.05 375.34,-294.76 371.6,-300.68"/>
+<text xml:space="preserve" text-anchor="middle" x="332.02" y="-278.69" font-family="Times,serif" font-size="9.00">_/_,&gt;</text>
+</g>
+<!-- qRemovePair0&#45;&gt;qRemovePair0 -->
+<g id="edge6" class="edge">
+<title>qRemovePair0-&gt;qRemovePair0</title>
+<path fill="none" stroke="black" d="M244.55,-269.17C245.4,-280.48 249.96,-289 258.24,-289 263.55,-289 267.33,-285.5 269.58,-280.02"/>
+<polygon fill="black" stroke="black" points="272.92,-281.17 271.61,-270.65 266.08,-279.68 272.92,-281.17"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-302.5" font-family="Times,serif" font-size="9.00">X/X,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-291.7" font-family="Times,serif" font-size="9.00">0/0,&gt;</text>
+</g>
+<!-- qGoBackToStart -->
+<g id="node7" class="node">
+<title>qGoBackToStart</title>
+<ellipse fill="none" stroke="black" cx="410.8" cy="-155.64" rx="50.37" ry="50.37"/>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-152.64" font-family="Times,serif" font-size="10.00">qGoBackToStart</text>
+</g>
+<!-- qRemovePair0&#45;&gt;qGoBackToStart -->
+<g id="edge7" class="edge">
+<title>qRemovePair0-&gt;qGoBackToStart</title>
+<path fill="none" stroke="black" d="M299.99,-206.7C316.66,-198.95 336.21,-189.85 354.17,-181.51"/>
+<polygon fill="black" stroke="black" points="355.55,-184.72 363.15,-177.33 352.6,-178.37 355.55,-184.72"/>
+<text xml:space="preserve" text-anchor="middle" x="332.02" y="-197.53" font-family="Times,serif" font-size="9.00">1/X,-</text>
+</g>
+<!-- qRemovePair1&#45;&gt;qAccept -->
+<g id="edge11" class="edge">
+<title>qRemovePair1-&gt;qAccept</title>
+<path fill="none" stroke="black" d="M301.48,-62.61C308.14,-60.71 315.01,-59.02 321.6,-57.84 335.75,-55.3 351.36,-54.06 365.47,-53.51"/>
+<polygon fill="black" stroke="black" points="365.49,-57.01 375.39,-53.23 365.3,-50.01 365.49,-57.01"/>
+<text xml:space="preserve" text-anchor="middle" x="332.02" y="-60.54" font-family="Times,serif" font-size="9.00">_/X,&gt;</text>
+</g>
+<!-- qRemovePair1&#45;&gt;qRemovePair1 -->
+<g id="edge9" class="edge">
+<title>qRemovePair1-&gt;qRemovePair1</title>
+<path fill="none" stroke="black" d="M244.55,-121.17C245.4,-132.48 249.96,-141 258.24,-141 263.55,-141 267.33,-137.5 269.58,-132.02"/>
+<polygon fill="black" stroke="black" points="272.92,-133.17 271.61,-122.65 266.08,-131.68 272.92,-133.17"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-154.5" font-family="Times,serif" font-size="9.00">1/1,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-143.7" font-family="Times,serif" font-size="9.00">X/X,&gt;</text>
+</g>
+<!-- qRemovePair1&#45;&gt;qGoBackToStart -->
+<g id="edge10" class="edge">
+<title>qRemovePair1-&gt;qGoBackToStart</title>
+<path fill="none" stroke="black" d="M298.8,-98.13C316.08,-107.08 336.62,-117.73 355.31,-127.41"/>
+<polygon fill="black" stroke="black" points="353.63,-130.48 364.12,-131.98 356.85,-124.27 353.63,-130.48"/>
+<text xml:space="preserve" text-anchor="middle" x="332.02" y="-121.68" font-family="Times,serif" font-size="9.00">0/X,-</text>
+</g>
+<!-- qGoBackToStart&#45;&gt;qFindBitToRemove -->
+<g id="edge13" class="edge">
+<title>qGoBackToStart-&gt;qFindBitToRemove</title>
+<path fill="none" stroke="black" d="M376.06,-118.89C370.42,-111.79 364.95,-104.21 360.43,-96.64 349.38,-78.15 354.29,-69.62 342.43,-51.64 329,-31.28 326.14,-22.17 303.6,-12.84 266.35,2.58 248.79,5.49 212.88,-12.84 174.33,-32.52 145.83,-72.08 127.02,-106.54"/>
+<polygon fill="black" stroke="black" points="124.01,-104.76 122.44,-115.24 130.2,-108.02 124.01,-104.76"/>
+<text xml:space="preserve" text-anchor="middle" x="258.24" y="-15.54" font-family="Times,serif" font-size="9.00">_/_,&gt;</text>
+</g>
+<!-- qGoBackToStart&#45;&gt;qGoBackToStart -->
+<g id="edge12" class="edge">
+<title>qGoBackToStart-&gt;qGoBackToStart</title>
+<path fill="none" stroke="black" d="M396.32,-204.19C397.51,-215.6 402.34,-224.01 410.8,-224.01 416.22,-224.01 420.15,-220.56 422.59,-215.08"/>
+<polygon fill="black" stroke="black" points="425.91,-216.21 424.92,-205.66 419.12,-214.53 425.91,-216.21"/>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-248.31" font-family="Times,serif" font-size="9.00">X/X,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-237.51" font-family="Times,serif" font-size="9.00">1/1,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="410.8" y="-226.71" font-family="Times,serif" font-size="9.00">0/0,&lt;</text>
+</g>
+</g>
+</svg>

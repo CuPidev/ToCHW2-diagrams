@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1553pt" height="378pt" viewBox="0.00 0.00 1553.00 378.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 374.1)">
+<title>Task3Cupryniak</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-374.1 1548.89,-374.1 1548.89,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="black" stroke="black" cx="1.8" cy="-223.39" rx="1.8" ry="1.8"/>
+</g>
+<!-- qStart -->
+<g id="node4" class="node">
+<title>qStart</title>
+<ellipse fill="none" stroke="black" cx="64.59" cy="-223.39" rx="23.99" ry="23.99"/>
+<text xml:space="preserve" text-anchor="middle" x="64.59" y="-220.39" font-family="Times,serif" font-size="10.00">qStart</text>
+</g>
+<!-- start&#45;&gt;qStart -->
+<g id="edge1" class="edge">
+<title>start-&gt;qStart</title>
+<path fill="none" stroke="black" d="M3.86,-223.39C7.14,-223.39 17.66,-223.39 28.97,-223.39"/>
+<polygon fill="black" stroke="black" points="28.79,-226.89 38.79,-223.39 28.79,-219.89 28.79,-226.89"/>
+</g>
+<!-- qAccept -->
+<g id="node2" class="node">
+<title>qAccept</title>
+<ellipse fill="none" stroke="green" cx="1511.23" cy="-191.39" rx="29.66" ry="29.66"/>
+<ellipse fill="none" stroke="green" cx="1511.23" cy="-191.39" rx="33.66" ry="33.66"/>
+<text xml:space="preserve" text-anchor="middle" x="1511.23" y="-188.39" font-family="Times,serif" font-size="10.00">qAccept</text>
+</g>
+<!-- qReject -->
+<g id="node3" class="node">
+<title>qReject</title>
+<ellipse fill="none" stroke="red" cx="1511.23" cy="-90.39" rx="27.99" ry="27.99"/>
+<ellipse fill="none" stroke="red" cx="1511.23" cy="-90.39" rx="31.99" ry="31.99"/>
+<text xml:space="preserve" text-anchor="middle" x="1511.23" y="-87.39" font-family="Times,serif" font-size="10.00">qReject</text>
+</g>
+<!-- qStart&#45;&gt;qStart -->
+<g id="edge2" class="edge">
+<title>qStart-&gt;qStart</title>
+<path fill="none" stroke="black" d="M56.74,-246.28C56,-256.52 58.61,-265.38 64.59,-265.38 68.13,-265.38 70.5,-262.25 71.67,-257.57"/>
+<polygon fill="black" stroke="black" points="75.15,-258 72.33,-247.79 68.17,-257.54 75.15,-258"/>
+<text xml:space="preserve" text-anchor="middle" x="64.59" y="-278.88" font-family="Times,serif" font-size="9.00">0/0,&gt;,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="64.59" y="-268.08" font-family="Times,serif" font-size="9.00">1/1,&gt;,-,-</text>
+</g>
+<!-- qCopyA -->
+<g id="node5" class="node">
+<title>qCopyA</title>
+<ellipse fill="none" stroke="black" cx="184.47" cy="-223.39" rx="30" ry="30"/>
+<text xml:space="preserve" text-anchor="middle" x="184.47" y="-220.39" font-family="Times,serif" font-size="10.00">qCopyA</text>
+</g>
+<!-- qStart&#45;&gt;qCopyA -->
+<g id="edge3" class="edge">
+<title>qStart-&gt;qCopyA</title>
+<path fill="none" stroke="black" d="M88.88,-223.39C104.29,-223.39 124.91,-223.39 142.96,-223.39"/>
+<polygon fill="black" stroke="black" points="142.86,-226.89 152.86,-223.39 142.86,-219.89 142.86,-226.89"/>
+<text xml:space="preserve" text-anchor="middle" x="121.52" y="-226.09" font-family="Times,serif" font-size="9.00">=/_,&gt;,-,-</text>
+</g>
+<!-- qCopyA&#45;&gt;qCopyA -->
+<g id="edge4" class="edge">
+<title>qCopyA-&gt;qCopyA</title>
+<path fill="none" stroke="black" d="M173.2,-251.5C172.7,-262.36 176.46,-271.39 184.47,-271.39 189.48,-271.39 192.82,-267.86 194.5,-262.57"/>
+<polygon fill="black" stroke="black" points="197.94,-263.33 195.57,-253 190.98,-262.55 197.94,-263.33"/>
+<text xml:space="preserve" text-anchor="middle" x="184.47" y="-284.89" font-family="Times,serif" font-size="9.00">0/0,&gt;,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="184.47" y="-274.09" font-family="Times,serif" font-size="9.00">1/1,&gt;,&gt;</text>
+</g>
+<!-- qCopyB -->
+<g id="node6" class="node">
+<title>qCopyB</title>
+<ellipse fill="none" stroke="black" cx="304.79" cy="-223.39" rx="29.67" ry="29.67"/>
+<text xml:space="preserve" text-anchor="middle" x="304.79" y="-220.39" font-family="Times,serif" font-size="10.00">qCopyB</text>
+</g>
+<!-- qCopyA&#45;&gt;qCopyB -->
+<g id="edge5" class="edge">
+<title>qCopyA-&gt;qCopyB</title>
+<path fill="none" stroke="black" d="M214.72,-223.39C229.47,-223.39 247.6,-223.39 263.64,-223.39"/>
+<polygon fill="black" stroke="black" points="263.36,-226.89 273.36,-223.39 263.36,-219.89 263.36,-226.89"/>
+<text xml:space="preserve" text-anchor="middle" x="244.79" y="-226.09" font-family="Times,serif" font-size="9.00">-/_,&gt;,&gt;</text>
+</g>
+<!-- qCopyB&#45;&gt;qCopyB -->
+<g id="edge6" class="edge">
+<title>qCopyB-&gt;qCopyB</title>
+<path fill="none" stroke="black" d="M293.58,-251.3C293.09,-262.09 296.82,-271.06 304.79,-271.06 309.64,-271.06 312.93,-267.73 314.64,-262.69"/>
+<polygon fill="black" stroke="black" points="318.11,-263.15 315.82,-252.8 311.16,-262.32 318.11,-263.15"/>
+<text xml:space="preserve" text-anchor="middle" x="304.79" y="-284.56" font-family="Times,serif" font-size="9.00">0/0,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="304.79" y="-273.76" font-family="Times,serif" font-size="9.00">1/1,&gt;,-,&gt;</text>
+</g>
+<!-- qAlign -->
+<g id="node7" class="node">
+<title>qAlign</title>
+<ellipse fill="none" stroke="black" cx="432.18" cy="-223.39" rx="26.33" ry="26.33"/>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-220.39" font-family="Times,serif" font-size="10.00">qAlign</text>
+</g>
+<!-- qCopyB&#45;&gt;qAlign -->
+<g id="edge7" class="edge">
+<title>qCopyB-&gt;qAlign</title>
+<path fill="none" stroke="black" d="M334.87,-223.39C352.52,-223.39 375.22,-223.39 394.14,-223.39"/>
+<polygon fill="black" stroke="black" points="394.14,-226.89 404.14,-223.39 394.14,-219.89 394.14,-226.89"/>
+<text xml:space="preserve" text-anchor="middle" x="367.12" y="-226.09" font-family="Times,serif" font-size="9.00">_/_,-,-,&lt;</text>
+</g>
+<!-- qAlign&#45;&gt;qAlign -->
+<g id="edge8" class="edge">
+<title>qAlign-&gt;qAlign</title>
+<path fill="none" stroke="black" d="M420.22,-247.1C418.92,-258.11 422.9,-267.72 432.18,-267.72 437.98,-267.72 441.71,-263.96 443.37,-258.46"/>
+<polygon fill="black" stroke="black" points="446.86,-258.83 444.04,-248.61 439.87,-258.36 446.86,-258.83"/>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-324.42" font-family="Times,serif" font-size="9.00">_,_,0/_,_,0,&lt;,&lt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-313.62" font-family="Times,serif" font-size="9.00">_,_,1/_,_,1,&lt;,&lt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-302.82" font-family="Times,serif" font-size="9.00">_,1,0/_,1,0,&lt;,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-292.02" font-family="Times,serif" font-size="9.00">_,1,1/_,1,1,&lt;,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-281.22" font-family="Times,serif" font-size="9.00">_,0,0/_,0,0,&lt;,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="432.18" y="-270.42" font-family="Times,serif" font-size="9.00">_,0,1/_,0,1,&lt;,-,-</text>
+</g>
+<!-- qAligned -->
+<g id="node8" class="node">
+<title>qAligned</title>
+<ellipse fill="none" stroke="black" cx="1021.62" cy="-204.39" rx="32" ry="32"/>
+<text xml:space="preserve" text-anchor="middle" x="1021.62" y="-201.39" font-family="Times,serif" font-size="10.00">qAligned</text>
+</g>
+<!-- qAlign&#45;&gt;qAligned -->
+<g id="edge9" class="edge">
+<title>qAlign-&gt;qAligned</title>
+<path fill="none" stroke="black" d="M457.56,-231.07C500.35,-244.07 592,-269.86 671.62,-278.39 805.43,-292.73 846.7,-287.45 971.62,-237.39 976.6,-235.4 981.58,-232.84 986.37,-230.04"/>
+<polygon fill="black" stroke="black" points="987.99,-233.16 994.56,-224.85 984.24,-227.25 987.99,-233.16"/>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-362" font-family="Times,serif" font-size="9.00">1,0,1/1,0,1,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-351.2" font-family="Times,serif" font-size="9.00">1,1,1/1,1,1,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-340.4" font-family="Times,serif" font-size="9.00">1,0,0/1,0,0,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-329.6" font-family="Times,serif" font-size="9.00">1,1,0/1,1,0,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-318.8" font-family="Times,serif" font-size="9.00">0,1,1/0,1,1,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-308" font-family="Times,serif" font-size="9.00">0,0,1/0,0,1,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-297.2" font-family="Times,serif" font-size="9.00">0,0,0/0,0,0,-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-286.4" font-family="Times,serif" font-size="9.00">0,1,0/0,1,0,-,-,-</text>
+</g>
+<!-- qAlign&#45;&gt;qAligned -->
+<g id="edge11" class="edge">
+<title>qAlign-&gt;qAligned</title>
+<path fill="none" stroke="black" d="M458.97,-222.91C536.54,-221.41 774.5,-216.35 971.62,-207.39 973.67,-207.3 975.77,-207.2 977.89,-207.09"/>
+<polygon fill="black" stroke="black" points="977.96,-210.59 987.75,-206.54 977.57,-203.6 977.96,-210.59"/>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-263.77" font-family="Times,serif" font-size="9.00">_,_,X/_,_,0,-,&lt;,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-252.97" font-family="Times,serif" font-size="9.00">_,1,1/_,1,0,&lt;,&lt;,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-242.17" font-family="Times,serif" font-size="9.00">_,1,0/_,1,1,-,&lt;,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-231.37" font-family="Times,serif" font-size="9.00">_,0,_/_,0,0,-,&lt;,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-220.57" font-family="Times,serif" font-size="9.00">_,0,0/0,0,0,-,&lt;,&lt;</text>
+</g>
+<!-- qBorrowSearch -->
+<g id="node9" class="node">
+<title>qBorrowSearch</title>
+<ellipse fill="none" stroke="black" cx="606.26" cy="-97.39" rx="47.36" ry="47.36"/>
+<text xml:space="preserve" text-anchor="middle" x="606.26" y="-94.39" font-family="Times,serif" font-size="10.00">qBorrowSearch</text>
+</g>
+<!-- qAlign&#45;&gt;qBorrowSearch -->
+<g id="edge10" class="edge">
+<title>qAlign-&gt;qBorrowSearch</title>
+<path fill="none" stroke="black" d="M453.94,-208.19C479.7,-189.33 524.42,-156.59 558.58,-131.57"/>
+<polygon fill="black" stroke="black" points="560.24,-134.69 566.24,-125.96 556.11,-129.04 560.24,-134.69"/>
+<text xml:space="preserve" text-anchor="middle" x="511.74" y="-199.66" font-family="Times,serif" font-size="9.00">1,0,1/1,X,1,-,&lt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="511.74" y="-188.86" font-family="Times,serif" font-size="9.00">0,0,1/0,X,1,-,&lt;,-</text>
+</g>
+<!-- qCheckPrep -->
+<g id="node12" class="node">
+<title>qCheckPrep</title>
+<ellipse fill="none" stroke="black" cx="1189.29" cy="-199.39" rx="39.01" ry="39.01"/>
+<text xml:space="preserve" text-anchor="middle" x="1189.29" y="-196.39" font-family="Times,serif" font-size="10.00">qCheckPrep</text>
+</g>
+<!-- qAligned&#45;&gt;qCheckPrep -->
+<g id="edge18" class="edge">
+<title>qAligned-&gt;qCheckPrep</title>
+<path fill="none" stroke="black" d="M1053.78,-203.45C1077.65,-202.73 1111.04,-201.72 1138.59,-200.89"/>
+<polygon fill="black" stroke="black" points="1138.58,-204.39 1148.47,-200.59 1138.37,-197.4 1138.58,-204.39"/>
+<text xml:space="preserve" text-anchor="middle" x="1101.95" y="-248.67" font-family="Times,serif" font-size="9.00">_,_,_/_ ,_,_,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1101.95" y="-237.87" font-family="Times,serif" font-size="9.00">_,_,1/_,_,0,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1101.95" y="-227.07" font-family="Times,serif" font-size="9.00">_,_,0/_,_,0,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1101.95" y="-216.27" font-family="Times,serif" font-size="9.00">1,_,_/1,_,_,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1101.95" y="-205.47" font-family="Times,serif" font-size="9.00">0,_,_/0,_,_,&gt;,-,&gt;</text>
+</g>
+<!-- qBorrowSearch&#45;&gt;qBorrowSearch -->
+<g id="edge12" class="edge">
+<title>qBorrowSearch-&gt;qBorrowSearch</title>
+<path fill="none" stroke="black" d="M588.67,-141.69C589.6,-153.65 595.46,-162.75 606.26,-162.75 613.35,-162.75 618.31,-158.83 621.14,-152.76"/>
+<polygon fill="black" stroke="black" points="624.52,-153.7 623.49,-143.16 617.72,-152.04 624.52,-153.7"/>
+<text xml:space="preserve" text-anchor="middle" x="606.26" y="-187.05" font-family="Times,serif" font-size="9.00">1,0,1/1,0,1,-,&lt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="606.26" y="-176.25" font-family="Times,serif" font-size="9.00">_,0,1/_,0,1,-,&lt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="606.26" y="-165.45" font-family="Times,serif" font-size="9.00">0,0,1/0,0,1,-,&lt;,-</text>
+</g>
+<!-- qBorrowFound -->
+<g id="node10" class="node">
+<title>qBorrowFound</title>
+<ellipse fill="none" stroke="black" cx="796.47" cy="-109.39" rx="46.37" ry="46.37"/>
+<text xml:space="preserve" text-anchor="middle" x="796.47" y="-106.39" font-family="Times,serif" font-size="10.00">qBorrowFound</text>
+</g>
+<!-- qBorrowSearch&#45;&gt;qBorrowFound -->
+<g id="edge13" class="edge">
+<title>qBorrowSearch-&gt;qBorrowFound</title>
+<path fill="none" stroke="black" d="M653.78,-100.36C679.41,-101.99 711.41,-104.03 738.52,-105.76"/>
+<polygon fill="black" stroke="black" points="738.09,-109.24 748.3,-106.38 738.54,-102.25 738.09,-109.24"/>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-118.67" font-family="Times,serif" font-size="9.00">1,1,1/1,0,1,-,&gt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-107.87" font-family="Times,serif" font-size="9.00">0,1,1/0,0,1,-,&gt;,-</text>
+</g>
+<!-- qBorrowNotFound -->
+<g id="node11" class="node">
+<title>qBorrowNotFound</title>
+<ellipse fill="none" stroke="black" cx="916.23" cy="-55.39" rx="55.39" ry="55.39"/>
+<text xml:space="preserve" text-anchor="middle" x="916.23" y="-52.39" font-family="Times,serif" font-size="10.00">qBorrowNotFound</text>
+</g>
+<!-- qBorrowSearch&#45;&gt;qBorrowNotFound -->
+<g id="edge16" class="edge">
+<title>qBorrowSearch-&gt;qBorrowNotFound</title>
+<path fill="none" stroke="black" d="M647.96,-74.38C655.64,-70.77 663.73,-67.43 671.62,-64.99 729.76,-46.99 799.45,-46.18 849.37,-48.93"/>
+<polygon fill="black" stroke="black" points="848.95,-52.41 859.15,-49.54 849.38,-45.43 848.95,-52.41"/>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-89.29" font-family="Times,serif" font-size="9.00">_,_,1/_,_,1,-,&gt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-78.49" font-family="Times,serif" font-size="9.00">1,_,1/1,_,1,-,&gt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="701.86" y="-67.69" font-family="Times,serif" font-size="9.00">0,_,1/0,_,1,-,&gt;,-</text>
+</g>
+<!-- qBorrowFound&#45;&gt;qAligned -->
+<g id="edge15" class="edge">
+<title>qBorrowFound-&gt;qAligned</title>
+<path fill="none" stroke="black" d="M839.71,-127.37C880.45,-144.72 941.63,-170.76 981.34,-187.67"/>
+<polygon fill="black" stroke="black" points="979.73,-190.79 990.3,-191.48 982.47,-184.34 979.73,-190.79"/>
+<text xml:space="preserve" text-anchor="middle" x="916.23" y="-194.93" font-family="Times,serif" font-size="9.00">1,X,1/1,1,1,-,&lt;,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="916.23" y="-184.13" font-family="Times,serif" font-size="9.00">0,X,1/0,1,1,-,&lt;,&lt;</text>
+</g>
+<!-- qBorrowFound&#45;&gt;qBorrowFound -->
+<g id="edge14" class="edge">
+<title>qBorrowFound-&gt;qBorrowFound</title>
+<path fill="none" stroke="black" d="M778.84,-152.71C779.69,-164.64 785.57,-173.76 796.47,-173.76 803.62,-173.76 808.61,-169.84 811.44,-163.76"/>
+<polygon fill="black" stroke="black" points="814.81,-164.73 813.75,-154.18 808,-163.09 814.81,-164.73"/>
+<text xml:space="preserve" text-anchor="middle" x="796.47" y="-187.26" font-family="Times,serif" font-size="9.00">1,0,1/1,1,1,-,&gt;,-</text>
+<text xml:space="preserve" text-anchor="middle" x="796.47" y="-176.46" font-family="Times,serif" font-size="9.00">0,0,1/0,1,1,-,&gt;,-</text>
+</g>
+<!-- qBorrowNotFound&#45;&gt;qReject -->
+<g id="edge17" class="edge">
+<title>qBorrowNotFound-&gt;qReject</title>
+<path fill="none" stroke="black" d="M971.89,-56.3C1008.43,-56.83 1057.57,-57.39 1100.95,-57.39 1100.95,-57.39 1100.95,-57.39 1353.94,-57.39 1393.95,-57.39 1438.51,-67.87 1469.78,-77.02"/>
+<polygon fill="black" stroke="black" points="1468.63,-80.33 1479.21,-79.87 1470.65,-73.63 1468.63,-80.33"/>
+<text xml:space="preserve" text-anchor="middle" x="1189.29" y="-70.89" font-family="Times,serif" font-size="9.00">1,_,1/-,-,-</text>
+<text xml:space="preserve" text-anchor="middle" x="1189.29" y="-60.09" font-family="Times,serif" font-size="9.00">0,_,1/-,-,-</text>
+</g>
+<!-- qCheck -->
+<g id="node13" class="node">
+<title>qCheck</title>
+<ellipse fill="none" stroke="black" cx="1352.94" cy="-191.39" rx="27.99" ry="27.99"/>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-188.39" font-family="Times,serif" font-size="10.00">qCheck</text>
+</g>
+<!-- qCheckPrep&#45;&gt;qCheck -->
+<g id="edge19" class="edge">
+<title>qCheckPrep-&gt;qCheck</title>
+<path fill="none" stroke="black" d="M1228.6,-197.5C1254.18,-196.23 1287.71,-194.57 1313.35,-193.3"/>
+<polygon fill="black" stroke="black" points="1313.2,-196.81 1323.01,-192.82 1312.85,-189.82 1313.2,-196.81"/>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-274.88" font-family="Times,serif" font-size="9.00">_,_,_/_ ,_,_,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-264.08" font-family="Times,serif" font-size="9.00">0,_,0/0,_,0,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-253.28" font-family="Times,serif" font-size="9.00">1,_,1/1,_,1,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-242.48" font-family="Times,serif" font-size="9.00">1,_,0/1,_,0,-,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-231.68" font-family="Times,serif" font-size="9.00">_,_,0/_,_,0,-,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-220.88" font-family="Times,serif" font-size="9.00">_,_,1/_,_,1,-,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-210.08" font-family="Times,serif" font-size="9.00">0,_,_/0,_,_,&gt;,-,&gt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1276.62" y="-199.28" font-family="Times,serif" font-size="9.00">1,_,_/1,_,_,&gt;,-,&gt;</text>
+</g>
+<!-- qCheck&#45;&gt;qAccept -->
+<g id="edge21" class="edge">
+<title>qCheck-&gt;qAccept</title>
+<path fill="none" stroke="black" d="M1381.16,-191.39C1404.5,-191.39 1438.58,-191.39 1465.86,-191.39"/>
+<polygon fill="black" stroke="black" points="1465.57,-194.89 1475.57,-191.39 1465.57,-187.89 1465.57,-194.89"/>
+<text xml:space="preserve" text-anchor="middle" x="1429.25" y="-194.09" font-family="Times,serif" font-size="9.00">_,_,_/_ ,_,_,&lt;,-,&lt;</text>
+</g>
+<!-- qCheck&#45;&gt;qReject -->
+<g id="edge22" class="edge">
+<title>qCheck-&gt;qReject</title>
+<path fill="none" stroke="black" d="M1377,-176.49C1402.56,-159.97 1444.11,-133.12 1474.02,-113.8"/>
+<polygon fill="black" stroke="black" points="1475.9,-116.74 1482.4,-108.38 1472.1,-110.86 1475.9,-116.74"/>
+<text xml:space="preserve" text-anchor="middle" x="1429.25" y="-164.25" font-family="Times,serif" font-size="9.00">_,_,1/_ ,_,1,&lt;,-,&lt;</text>
+</g>
+<!-- qCheck&#45;&gt;qCheck -->
+<g id="edge20" class="edge">
+<title>qCheck-&gt;qCheck</title>
+<path fill="none" stroke="black" d="M1338.91,-216C1337.38,-227.41 1342.06,-237.38 1352.94,-237.38 1359.91,-237.38 1364.33,-233.29 1366.21,-227.35"/>
+<polygon fill="black" stroke="black" points="1369.69,-227.72 1366.86,-217.51 1362.71,-227.25 1369.69,-227.72"/>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-283.28" font-family="Times,serif" font-size="9.00">_,_,0/_,_,0,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-272.48" font-family="Times,serif" font-size="9.00">0,_,_/0,_,_,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-261.68" font-family="Times,serif" font-size="9.00">1,_,_/1,_,_,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-250.88" font-family="Times,serif" font-size="9.00">0,_,_/0,_,_,&lt;,-,&lt;</text>
+<text xml:space="preserve" text-anchor="middle" x="1352.94" y="-240.08" font-family="Times,serif" font-size="9.00">_,_,0/_,_,0,&lt;,-,&lt;</text>
+</g>
+</g>
+</svg>
